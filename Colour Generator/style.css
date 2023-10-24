@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 10px 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+#zodiac{
+    margin: 30px 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+button{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+#bodyTag{
+    margin: 0 20px;
+
+}
