@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#heading {
+  margin: 20px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgb(89, 117, 108);
+  color: rgb(249, 250, 252);
+}
+.box {
+  width: 50%;
+  border: 1px solid black;
+  background-color: brown;
+  color: white;
+  margin: 20px 20px;
+}
+#button {
+  width: 70px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 2;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.div{
+    margin: 20px 20px;
+    border-radius: 2px;
+    background-color: beige;
+    align-items: center;
+}
+
+#name{
+   /* width: 70px; */
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 2;
+  margin: 0px;  
+  margin-left: 20px;
+}
+.applyTagStyle{
+    background-color: cyan;
+    color: black;
+    margin: 20px;
+    height: 50px;
+    width: 20%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    text-align: center;
+}
