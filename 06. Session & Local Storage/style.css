@@ -1,0 +1,33 @@
+* {
+  background-color: azure;
+  margin: 7px;
+}
+#div{
+    background-color: aquamarine;
+    align-items: center;
+}
+#Heading{
+    margin: 40px;
+    text-align: center;
+}
+#input {
+  height: 40px;
+  width: 40%;
+}
+#btn {
+  background-color: blue;
+  color: white;
+  height: 45px;
+  width: 20%;
+  margin: 0 35px;
+  cursor: pointer;
+}
+
+#deleteBtn {
+  background-color: red;
+  color: white;
+  height: 45px;
+  width: 20%;
+  margin: -15 0 35px;  
+  cursor: pointer;
+}
