@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: antiquewhite;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+}
+.container {
+  background-color: white;
+  padding: 20px;
+  width: 70%;
+  min-height: 100vh;
+  margin: auto;
+  padding: 30px;
+  box-sizing: border-box;
+}
+#title{
+  margin: 10px;
+  height: 50px;
+}
+
+#description{
+ align-items:end;
+ height: 50px;
+ margin: 3px 10px 3px 10px;
+ margin-bottom: 10px
+}
+#heading {
+  background-color: azure;
+  margin-left: 40%;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  width: 20%;
+  align-items: center;
+  border: 1px solid rgb(160, 157, 157);
+  box-sizing: border-box;
+}
+#btn {
+  background-color: black;
+  color: white;
+  height: 50px;
+  cursor: pointer;
+  margin: 3px 10px 3px 10px;
+  margin-bottom: 10px
+}
+#btn:hover {
+  background-color: blue;
+}
+.tasks {
+  display: flex;
+  background-color: rgb(247, 247, 247);
+  font: 100 1.1rem sans-serif;
+  padding: 30px;
+  color: black;
+  align-items: center;
+  margin: 2vmax;
+}
+button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.tasks span {
+  color: rgb(88, 87, 87);
+}
+.tasks > div {
+  width: 100%;
+}
+.deleteBtn{
+  background-color: rgba(255, 0, 0, 0.651);
+  font-size: 1.6rem;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
